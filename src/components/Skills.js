@@ -49,59 +49,59 @@ export const Skills = () => {
               <Carousel responsive={responsive} infinite={true} className="skill-slider">
               <div className="image-container">
                   {/* <img src={sql} alt="image" className="transparent-image" /> */}
-                  <img src={sql} alt="Transparent Image" style={{ background: 'transparent', paddingTop: '0px' }} />
+                  <img className="skilled-image" src={sql} alt="Transparent Image"  />
                   <br />
                   <h5>PostgreSQL</h5>
                 </div>
                 <div className="image-container">
                   {/* <img src={Java} alt="image" className="transparent-image" /> */}
-                  <img src={Java} alt="Transparent Image" style={{ background: 'transparent', paddingTop: '66px' }} />
+                  <img className="skilled-image" src={Java} alt="Transparent Image"  />
                   <br />
                   <h5>JavaScript</h5>
                 </div>
                 <div className="image-container">
                   {/* <img src={python} alt="image" className="transparent-image" /> */}
-                  <img src={python} alt="Transparent Image" style={{ background: 'transparent', paddingTop: '20px', paddingRight: '10px', paddingLeft: '10px'  }} />
+                  <img className="skilled-image" src={python} alt="Transparent Image"  />
                   <h5>Python</h5>
                 </div>
                 <div className="image-container">
                   {/* <img src={react} alt="image" className="transparent-image" /> */}
-                  <img src={react} alt="Transparent Image" style={{ background: 'transparent', paddingTop: '0px', paddingTop: '70px', paddingRight: '20px', paddingLeft: '20px' }} />
+                  <img className="skilled-image" src={react} alt="Transparent Image"  />
                   <h5>React</h5>
                 </div>
                 <div className="image-container">
                   {/* <img src={node} alt="image" className="transparent-image" /> */}
-                  <img src={node} alt="Transparent Image" style={{ background: 'transparent', paddingTop: '100px' }} />
+                  <img className="skilled-image" src={node} alt="Transparent Image" />
                   <h5>Express/Node JS</h5>
                 </div>                
                 <div className="image-container">
                   {/* <img src={html} alt="image" className="transparent-image" /> */}
-                  <img src={html} alt="Transparent Image" style={{ background: 'transparent', marginTop: '-5px' }} />
+                  <img className="skilled-image" src={html} alt="Transparent Image"  />
                   <h5>Html</h5>
                 </div>                
                 <div className="image-container">
                   {/* <img src={sass} alt="image" className="transparent-image" /> */}
-                  <img src={sass} alt="Transparent Image" style={{ background: 'transparent', paddingTop: '70px', paddingRight: '10px' }} />
+                  <img className="skilled-image" src={sass} alt="Transparent Image"  />
                   <h5>Sass</h5>
                 </div>                
                 <div className="image-container">
                   {/* <img src={flask} alt="image" className="transparent-image" /> */}
-                  <img src={flask} alt="Transparent Image" style={{ background: 'transparent', paddingTop: '120px', paddingRight: '10px', paddingLeft: '10px' }} />
+                  <img className="skilled-image" src={flask} alt="Transparent Image" />
                   <h5>Flask</h5>
                 </div>                
                 <div className="image-container">
                   {/* <img src={git} alt="image" className="transparent-image" /> */}
-                  <img src={git} alt="Transparent Image" style={{ background: 'transparent', marjinBottom: '10px',paddingLeft: '5px'  }} />
+                  <img className="skilled-image" src={git} alt="Transparent Image"  />
                   <h5>Git</h5>
                 </div>                
                 <div className="image-container">
                   {/* <img src={data} alt="image" className="transparent-image" /> */}
-                  <img src={data} alt="Transparent Image" style={{ background: 'transparent', paddingTop: '0px', paddingRight: '0px', paddingLeft: '10px'  }} />
+                  <img className="skilled-image" src={data} alt="Transparent Image"  />
                   <h5>Data Structures</h5>
                 </div>
                 <div className="image-container">
                   {/* <img src={bootstrap} alt="image" className="transparent-image" /> */}
-                  <img src={bootstrap} alt="Transparent Image" style={{ background: 'transparent' }} />
+                  <img className="skilled-image" src={bootstrap} alt="Transparent Image"  />
                   <h5>Bootstrap</h5>
                 </div>           
               </Carousel>
