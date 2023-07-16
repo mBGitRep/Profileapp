@@ -120,7 +120,7 @@ function Base() {
                 <br />
                 <LanguageIcon />{' '}
                 <a
-                  href="http://www.zebaig.com"
+                  href="http://www.zeebaig.net"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

@@ -415,6 +415,39 @@ nav.navbar .navbar-toggler[arie-expand="true"] .navbar-toggler-icon {
   opacity: 0.5;
 }
 
+.image-container {
+  text-align: center;
+  position: relative;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.skilled-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 10%;
+  /* object-fit: cover; */
+  transition: transform 0.3s;
+}
+
+.skilled-image:hover {
+  transform: scale(1.1);
+}
+
+h5 {
+  margin-top: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #000;
+}
+/* 
 
 
 .skill-slider {
@@ -434,8 +467,8 @@ nav.navbar .navbar-toggler[arie-expand="true"] .navbar-toggler-icon {
 
 .skilled-image {
   height: 150px; /* Adjust the height as needed */
-  width: 150px; /* Adjust the width as needed */
-}
+  /* width: 150px; Adjust the width as needed */
+/* } */
 
 .skilled-image + br {
   display: none;
@@ -446,7 +479,7 @@ nav.navbar .navbar-toggler[arie-expand="true"] .navbar-toggler-icon {
   font-size: 1rem;
   font-weight: 500;
   color: #fff;
-}
+} */
 
 
 
@@ -595,7 +628,7 @@ nav.navbar .navbar-toggler[arie-expand="true"] .navbar-toggler-icon {
 
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(90.21deg, #343334 -5.91%, #4A2FBD 111.58%);
   opacity: .85;
   position: absolute;
   width: 100%;

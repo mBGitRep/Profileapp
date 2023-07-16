@@ -39,7 +39,7 @@ export const Projects = () => {
       description: "React App with Express/Node and PostgreSQL",
       imgUrl: projImg4,
       gitRepoLink: "https://github.com/mBGitRep/hubapi.git",
-      demoLink: "https://demo.example.com"
+      demoLink: "https://hub360-m7uf.onrender.com"
     },
   ];
 
